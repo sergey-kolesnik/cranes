@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+}
+
+.wrapper {
+    width: 62.5vw;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+/* ______________________HEADER_______________________ */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.52vh 0;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-title {
+    margin-left: 1.35vw;
+    font-family: "PT Sans";
+    font-size: 1.6vh;
+    line-height: 1.85vh;
+}
+
+.header-phone {
+    margin-left: 0.47vw;
+    font-family: "PT Sans";
+    font-size: 1.48vh;
+}
+.header-search {
+    margin-left: 1.6vw;
+    padding: 0.5vw;
+}
+
+/*---------------------- COLORS ---------------------- */
+
+.light-gray-1 {
+    color: #999999;
+}
+.light-gray-2 {
+    color: #939393;
+}
+.light-gray-3 {
+    color: #BEBEBE;
+}
+.light-gray-text {
+    color: #7B7B7B;
+}
+
+.light-gray-back {
+    background-color: #F6F6F6;
+}
+
+.gray-back {
+    background-color: #575757;
+}
+.gray-border {
+    border: 1px solid #494949;
+}
+
+.orange {
+    color: #FE5B00;
+}
+
+.orange-back {
+    background-color: #FF7028;
+}
+
+.dark-gray {
+    color: #151716;
+}
+
+.dark-gray-back {
+    background-color: #060707D9;
+}
+
+.dark-gray-back-2 {
+    background-color: #202122;
+}
