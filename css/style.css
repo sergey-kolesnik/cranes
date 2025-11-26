@@ -121,6 +121,67 @@ header {
     display: block;
     max-height: 51.1vh;
 }
+/* _____________________DESCRIPTION_INTRO_____________ */
+
+
+.description-intro {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+
+.description-intro > div {
+    margin-top: 7.59vh;
+    margin-bottom: 7.59vh;
+}
+
+.intro-orange {
+    font-family: "PT Sans";
+    font-size: 1.6vh;
+    line-height: 2.5vh;
+}
+
+.intro-orange-content {
+    display: flex;
+    align-items: center;
+}
+
+.intro-first-title {
+    font-weight: bold;
+}
+
+.intro-first-letter  {
+    line-height: 3.98vh;
+    font-size: 4.67vh;
+}
+
+.intro-features {
+    max-width: 25.5vw;
+}
+
+.intro-feature {
+    display: flex;
+    align-items: start;
+}
+
+.intro-feature-content-title {
+    font-weight: bold;
+}
+
+.intro-feature-content {
+    font-family: "PT Sans";
+    font-size: 1.38vh;
+    line-height: 1.85vh;
+    color: #7B7B7B;
+    margin-left: 1.48vh;
+}
+
+.intro-feature-content-title {
+    color: black!important;
+    font-size: 1.48vh;
+}
 /*---------------------- COLORS ---------------------- */
 
 .light-gray-1 {
