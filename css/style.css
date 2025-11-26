@@ -44,6 +44,83 @@ header {
     padding: 0.5vw;
 }
 
+
+/* ----------------------DESCRIPTION------------------ */
+
+.description {
+    margin-top: 4.35vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-left {
+    padding-top: 4.26vh;
+}
+
+.description-title {
+    font-size: 5.55vh;
+    line-height: 5.93vh;
+    color: white;
+    font-family: "Gilroy";
+}
+
+.description-menu {
+    max-width: 19.53vw;
+    margin-top: 5.37vw;
+}
+.description-menu-item {
+    margin-left: 0.78vh;
+}
+
+.description-menu-content > span {
+    margin-left: 0.78vh;
+    font-size: 1.89vh;
+    line-height: 1.89vh;
+    font-family: "PT Sans";
+}
+
+.description-company .description-goods {
+    margin-bottom: 2.22vh;
+}
+
+.description-products, .description-goods {
+    margin-top: 2.22vh;
+}
+
+.description-menu-line {
+    height: 1px;
+    background: linear-gradient(to right, #4B4B4B, #26262500);
+}
+
+.description-menu-footer-item {
+    width: 31px;
+    height: 2px;
+}
+
+.description-menu-footer-item:not(:first-child) {
+    margin-left: 0.93vh;
+}
+
+.description-right {
+    position: relative;
+}
+
+.description-price {
+    position: absolute;
+    font-family: "PT Sans";
+    font-size: 2.22vh;
+    line-height: 2.22vh;
+    padding: 1.38vh;
+    background-color: #FF7028;
+    color: white;
+    top:28.43vh;
+    left: 6.3vw;
+}
+
+.description-tap {
+    display: block;
+    max-height: 51.1vh;
+}
 /*---------------------- COLORS ---------------------- */
 
 .light-gray-1 {
