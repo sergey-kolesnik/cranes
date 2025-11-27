@@ -182,6 +182,50 @@ header {
     color: black!important;
     font-size: 1.48vh;
 }
+
+/* _____________________PRODUCTS______________________ */
+
+.products-container {
+    margin-top: 7.4vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 9.25vh;;
+}
+
+.products-title {
+    font-family: "Gilroy";
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    color: black;
+}
+
+.products {
+    display: flex;
+    margin-top: 2.59vh;
+    justify-content: space-between;
+}
+
+.product {
+    position: relative;
+}
+
+.product > img {
+    max-width: 14.95vw;
+}
+
+.product-name {
+    position: absolute;
+    color: white;
+    font-family: "Gilroy";
+    font-size: 1.85vh;
+    line-height: 1.85vh;
+    bottom: 2vh;
+    left: 1.25vw;
+}
+
+
+
+
 /*---------------------- COLORS ---------------------- */
 
 .light-gray-1 {
